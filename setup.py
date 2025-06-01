@@ -1,6 +1,5 @@
-from setuptools import setup, find_packages
-
 from chamber.version import get_version
+from setuptools import find_packages, setup
 
 
 setup(
@@ -29,7 +28,7 @@ setup(
         'Framework :: Django',
     ],
     install_requires=[
-        'django>=2.2, <4.2',
+        'django>=2.2, <5.3',
         'Unidecode>=1.1.1',
         'pyprind>=2.11.2',
         'filemagic>=1.6',
